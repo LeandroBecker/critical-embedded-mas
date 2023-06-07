@@ -1,0 +1,18 @@
+[BaseLocalMAS] Error creating agent sample_agent
+java.io.FileNotFoundException: sample_agent.asl (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.base/java.net.URL.openStream(URL.java:1161)
+	at jason.asSemantics.Agent.parseAS(Agent.java:463)
+	at jason.asSemantics.Agent.parseAS(Agent.java:459)
+	at jason.asSemantics.Agent.load(Agent.java:177)
+	at jason.asSemantics.Agent.create(Agent.java:125)
+	at jason.infra.local.LocalAgArch.createArchs(LocalAgArch.java:89)
+	at jason.infra.local.RunLocalMAS.createAgs(RunLocalMAS.java:542)
+	at jason.infra.local.RunLocalMAS.create(RunLocalMAS.java:237)
+	at jason.infra.local.RunLocalMAS.main(RunLocalMAS.java:94)
+
