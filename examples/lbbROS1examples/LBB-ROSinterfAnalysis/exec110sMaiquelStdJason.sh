@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Starting experiments script"
+source catkin_ws/devel/setup.sh 
 cp src/java/MyRosMasterStdJas.jaBAA src/java/MyRosMaster.java
 cp build.gradle.maiquel.stdJason.txt build.gradle
 #pwd 

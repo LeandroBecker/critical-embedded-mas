@@ -25,5 +25,10 @@ roslaunch rosbridge_server rosbridge_websocket.launch
 
 5. Finally, execute the application
 ```
-theRightScript.sh
+There are some scripts available that facilitate launching the agent:
+exec110sMaiquelCritcalJason
+exec110sMaiquelStdJason
+exec110sRafaelCritcalJason
+exec110sRafaelStdJason
+
 ```

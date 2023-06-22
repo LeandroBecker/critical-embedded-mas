@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Starting experiments script"
+source catkin_ws/devel/setup.sh 
 cp build.gradle.rafael.stdJason.txt build.gradle
 cp src/java/RosEnv.jaBAA src/java/RosEnv.java
 #pwd 

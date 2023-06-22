@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Starting experiments script"
+source catkin_ws/devel/setup.sh 
 cp build.gradle.rafael.criticalJason.txt build.gradle
 cp src/java/RosEnvCritical.jaBAA src/java/RosEnvCritical.java
 #pwd 

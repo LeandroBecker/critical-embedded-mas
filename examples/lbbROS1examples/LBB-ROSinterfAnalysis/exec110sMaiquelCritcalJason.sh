@@ -1,7 +1,9 @@
 #!/bin/bash
 echo "Starting experiments script"
+source catkin_ws/devel/setup.sh 
 cp build.gradle.maiquel.criticalJason.txt build.gradle
 cp src/java/MyRosMaster.jaBAA src/java/MyRosMaster.java
+cp src/java/DemoEmbeddedAgentArch.jaBAA src/java/DemoEmbeddedAgentArch.java
 #pwd 
 #cp ../ariac_human/human_control.py .
 SECONDS_TO_RUN=30  # Number of seconds to run
@@ -24,4 +26,5 @@ do
 	touch .stop___MAS
 done
 rm src/java/MyRosMaster.java
+rm src/java/DemoEmbeddedAgentArch.java
 echo "Finishing experiments script"
