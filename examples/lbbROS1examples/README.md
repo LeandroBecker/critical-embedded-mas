@@ -10,7 +10,9 @@ noetic
 
 2. Source the ROS workspace, for example: 
 ```
-source LBB-ROSinterfAnalysis/catkin_ws/devel/setup.sh
+source ~/catkin_ws/devel/setup.bash
+
+BTW: when making a new installation, first run catkin_make clean at ~/catkin_ws
 ```
 
 3. Start the roscore:
